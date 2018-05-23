@@ -67,7 +67,7 @@ $('#vid2s').on('click', function(){
     $('#secondVideoTexts').text('Cuáles son los modelos de negocio que mejor rendimiento pueden darte y cómo puedes desarrollarlos en tu tiempo libre. ').animate({
       marginLeft:'9px'
     },'fast')
-    $('#vid2').css('box-shadow','inset 0px 0px 0px 200px rgba(255,96,59,.8)')
+    $('#vid2s').css('box-shadow','inset 0px 0px 0px 200px rgba(255,96,59,.8)')
     active2 = false;
   }else{
     $('#secondVideoPlays').show();
@@ -110,7 +110,7 @@ $('#vid3s').on('click', function(){
     $('#thirdVideoTexts').text('Vamos a mostrarte los modelos de negocios que son efectivos y cuáles no lo son.').animate({
       marginLeft:'9px'
     },'fast')
-    $('#vid3').css('box-shadow','inset 0px 0px 0px 200px rgba(255,96,59,.8)')
+    $('#vid3s').css('box-shadow','inset 0px 0px 0px 200px rgba(255,96,59,.8)')
     $('#videoTittle3s').text('[24 horas después de ver la primera parte se te enviará este video].')
     active3 = false;
   }else{
@@ -156,12 +156,12 @@ $('#vid4s').on('click', function(){
       marginLeft:'9px'
     },'fast')
     $('#videoTittle4s').text('[En 24 horas después de ver la segunda parte del seminario se enviara este video.]')
-    $('#vid4').css('box-shadow','inset 0px 0px 0px 200px rgba(255,96,59,.8)')
+    $('#vid4s').css('box-shadow','inset 0px 0px 0px 200px rgba(255,96,59,.8)')
     active4 = false;
   }else{
     $('#fourthVideoPlays').show();
     $('#videoTittle4s').text('Video #4')
-    $('#vid4').css('box-shadow','inset 0 0 0 200px rgba(28, 36, 74, .8)')
+    $('#vid4s').css('box-shadow','inset 0 0 0 200px rgba(28, 36, 74, .8)')
   
     $('#fourthVideoTexts').text('Presentación del proyecto.').animate({
       marginLeft:'0px',
