@@ -170,3 +170,7 @@ $('#vid4s').on('click', function(){
     active4 = true;
   }
 })
+
+$('#messengerChat').on('click', ()=>{
+  window.location = 'https://m.me/ACADEMY.NOVAERA?ref=Acceso-Seminario'
+})
