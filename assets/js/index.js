@@ -140,7 +140,7 @@ $('#vid4').on('click', function(){
     $('#fourthVideoPlay').show();
     $('#videoTittle4').text('Video #4')
     $('#vid4').css('box-shadow','inset 0 0 0 200px rgba(28, 36, 74, .8)')
-  
+
     $('#fourthVideoText').text('Presentación del proyecto.').animate({
       marginLeft:'0px',
       fontSize: '16px'
@@ -155,14 +155,14 @@ $('#vid4s').on('click', function(){
     $('#fourthVideoTexts').text('Vamos a mostrarte el proyecto que desarrollamos actualmente, las ganancias que puede dar y el potencial de crecimiento que tiene.').animate({
       marginLeft:'9px'
     },'fast')
-    $('#videoTittle4s').text('[En 24 horas después de ver la segunda parte del seminario se enviara este video.]')
+    $('#videoTittle4s').text('[24 horas después de ver la segunda parte se enviara este video.]')
     $('#vid4s').css('box-shadow','inset 0px 0px 0px 200px rgba(255,96,59,.8)')
     active4 = false;
   }else{
     $('#fourthVideoPlays').show();
     $('#videoTittle4s').text('Video #4')
     $('#vid4s').css('box-shadow','inset 0 0 0 200px rgba(28, 36, 74, .8)')
-  
+
     $('#fourthVideoTexts').text('Presentación del proyecto.').animate({
       marginLeft:'0px',
       fontSize: '16px'
@@ -177,5 +177,3 @@ $('#messengerChat').on('click', ()=>{
 $('#register').on('click', ()=>{
   window.location = 'https://www.academynovaera.com/registro.html'
 })
-
-

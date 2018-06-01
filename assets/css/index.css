@@ -242,6 +242,13 @@ iframe{
     .light30{
       font-size: 22px
     }
+    .desbo{
+      padding-bottom: 5%;
+    }
+    #register{
+      font-size: 15px;
+    }
+
 }
 
 @media only screen and (min-width: 993px)  {
