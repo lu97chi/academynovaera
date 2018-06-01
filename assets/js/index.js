@@ -172,5 +172,6 @@ $('#vid4s').on('click', function(){
 })
 
 $('#messengerChat').on('click', ()=>{
-  window.location = 'https://m.me/ACADEMY.NOVAERA?ref=Acceso-Seminario'
+  window.location = 'https://m.me/ACADEMY.NOVAERA?ref=Seminario-online'
 })
+

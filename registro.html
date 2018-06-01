@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AcademyNovaEra</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119808295-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119808295-1');
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row backDouble">
+            <div class="container">
+                <h1 class="regular12 animated slideInDown">NovaEra Academy</h1>
+            </div>
+            <div class="row animated fadeIn">
+                <div class="col m8 s12 offset-m2">
+                    <div class="video-container">
+                        <iframe id="videoShow" src="https://www.youtube.com/embed/p26stFPwFa4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="col s12 first center-align animated flipInX">
+                    <p class="tittle ">SEMINARIO ONLINE</p>
+                    <p class="light17">Inicia un negocio serio y rentable a través de internet.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row white-text" style="background-color:#f3f3f5;padding:2.5% 0">
+            <div class="container-fluid">
+                <div class="buttonsDinamic">
+                    <div class="hide animated bounceIn card col s10 l4 m8 offset-m2 offset-l4 offset-s1 fbCard center-align" id="fbButton">
+                        <i class="fab fa-facebook-messenger fbButton">
+                            <span class="sendMessenger">Enviar a Messenger</span>
+                        </i>
+                    </div>
+
+                    <div class="animated bounceIn center-align show" id="activateButton">
+                        <button type="button" class="btn register col s10 l4 m8 offset-m2 offset-l4 offset-s1  center-align" name="register">Registro y Activación</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row videos">
+
+            <div class="container">
+                <p class="light30 col s12 center-align contenido flow-text" style="margin-bottom:3%; margin-top:3%">Contenido del seminario</p>
+                <div class="row hide-on-med-and-down" style="margin-bottom:3%">
+                    <div class="col"></div>
+                    <div class="col l5 offset-l1">
+                        <div id="vid1" class="col s12 m12 imageContainer v1 banner">
+                            <div class="row">
+                                <div class="col s12" style="margin-top:15px;">
+                                    <span class="semibold18">Video #1</span>
+                                </div>
+                                <div class="col s12" id="firstVideoText">
+                                    <span class="semibold18">Inicia un negocio rentable por internet</span>
+                                </div>
+                                <div class="col s12" id="firstVideoPlay">
+                                    <i class="fa fa-play-circle" style="font-size:45px;bottom:0" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="vid3" class="col s12 m12 imageContainer v3 banner">
+                            <div class="row">
+                                <div class="col s12" style="margin-top:15px;">
+                                    <span class="semibold18" id="videoTittle3">Video #3</span>
+                                </div>
+                                <div class="col s12" id="thirdVideoText">
+                                    <span class="semibold18">Seminario [Segunda parte]</span>
+                                </div>
+                                <div class="col s12 play" id="thirdVideoPlay">
+                                    <i class="fa fa-play-circle" style="font-size:45px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l5">
+
+                        <div id="vid2" class="col s12 m12 imageContainer v2 banner">
+                            <div class="row">
+                                <div class="col s12" style="margin-top:15px;">
+                                    <span class="semibold18">Video #2</span>
+                                </div>
+                                <div class="col s12" id="secondVideoText">
+                                    <span class="semibold18">Seminario [Primera parte]</span>
+                                </div>
+                                <div class="col s12" id="secondVideoPlay">
+                                    <i class="fa fa-play-circle" style="font-size:45px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="vid4" class="col s12 m12 imageContainer v4 banner">
+                            <div class="row">
+                                <div class="col s12" style="margin-top:15px;">
+                                    <span class="semibold18" id="videoTittle4">Video #4</span>
+                                </div>
+                                <div class="col s12" id="fourthVideoText">
+                                    <span class="semibold18">Presentación del proyecto.</span>
+                                </div>
+                                <div class="col s12 play" id="fourthVideoPlay">
+                                    <i class="fa fa-play-circle" style="font-size:45px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row hide-on-large-only " style="margin-bottom:3%">
+                    <div class="col"></div>
+                    <div class="col l5 offset-l1">
+                        <div id="vid1s" class="col s12 m12 imageContainer v1 banner">
+                            <div class="row">
+                                <div class="col s12" style="margin-top:15px;">
+                                    <span class="semibold18">Video #1</span>
+                                </div>
+                                <div class="col s12" id="firstVideoTexts">
+                                    <span class="semibold18">Inicia un negocio rentable por internet</span>
+                                </div>
+                                <div class="col s12" id="firstVideoPlays">
+                                    <i class="fa fa-play-circle" style="font-size:45px;bottom:0" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="vid2s" class="col s12 m12 imageContainer v2 banner">
+                            <div class="row">
+                                <div class="col s12" style="margin-top:15px;">
+                                    <span class="semibold18">Video #2</span>
+                                </div>
+                                <div class="col s12" id="secondVideoTexts">
+                                    <span class="semibold18">Seminario [Primera parte]</span>
+                                </div>
+                                <div class="col s12" id="secondVideoPlays">
+                                    <i class="fa fa-play-circle" style="font-size:45px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l5">
+                        <div id="vid3s" class="col s12 m12 imageContainer v3 banner">
+                            <div class="row">
+                                <div class="col s12" style="margin-top:15px;">
+                                    <span class="semibold18" id="videoTittle3s">Video #3</span>
+                                </div>
+                                <div class="col s12" id="thirdVideoTexts">
+                                    <span class="semibold18">Seminario [Segunda parte]</span>
+                                </div>
+                                <div class="col s12 play" id="thirdVideoPlays">
+                                    <i class="fa fa-play-circle" style="font-size:45px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="vid4s" class="col s12 m12 imageContainer v4 banner">
+                            <div class="row">
+                                <div class="col s12" style="margin-top:15px;">
+                                    <span class="semibold18" id="videoTittle4s">Video #4</span>
+                                </div>
+                                <div class="col s12" id="fourthVideoTexts">
+                                    <span class="semibold18">Presentación del proyecto.</span>
+                                </div>
+                                <div class="col s12 play" id="fourthVideoPlays">
+                                    <i class="fa fa-play-circle" style="font-size:45px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="regular12 center-align" style="margin-top:2%;padding-bottom:2%;">NovaEra Academy</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
