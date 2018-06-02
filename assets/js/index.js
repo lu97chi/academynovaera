@@ -175,5 +175,5 @@ $('#messengerChat').on('click', ()=>{
   window.location = 'http://bit.ly/Messenger-NovaEra' 
 })
 $('#register').on('click', ()=>{
-  window.location = 'https://www.academynovaera.com/registro.html'
+  window.location = 'http://bit.ly/Registro-Activación'
 })
