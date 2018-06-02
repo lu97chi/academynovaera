@@ -172,7 +172,7 @@ $('#vid4s').on('click', function(){
 })
 
 $('#messengerChat').on('click', ()=>{
-  window.location = 'http://bit.ly/Messenger-NovaEra' 
+  window.location = 'http://bit.ly/Messenger-NovaEra-1' 
 })
 $('#register').on('click', ()=>{
   window.location = 'http://bit.ly/Registro-Activación'
